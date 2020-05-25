@@ -1,5 +1,61 @@
-body, ul, li, h1, h2, h3, a{
-  margin: 0;
-  padding: 0;
+*{
+  margin: 0px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #aaa182;
+  display: flex;
+  flex-flow: column;
+}
+
+.campaign-selection{
+  text-align: right;
+  padding-bottom: 40px;
+  margin: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bot-row{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  color: black;
+}
+
+nav a:hover{
+  background-color: #D1C6A1;
+}
+
+main{
+  border: 4px solid black;
+}
+
+.title{
+  border: 2px solid red;
+}
+
+.card-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid green;
+}
+
+.card{
+  border: 2px solid blue;
+  width: 300px;
 }
