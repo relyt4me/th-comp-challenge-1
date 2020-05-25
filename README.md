@@ -2,11 +2,12 @@
 
 # Overview
 
-> This is a static html page that was created for a project at Turing School. I have created a page with a theme of characters on the podcast Critical Role that includes a header and character cards for each of the main characters in that podcast. The project demonstrates the use of basic html and css as well as grid and flexbox. Included are media queries for a variety of phone sizes so that the page remains easy to read and access on a variety of screens. 
+ This is a static html page that was created for a project at Turing School. I have created a page with a theme of characters on the podcast Critical Role that includes a header and character cards for each of the main characters in that podcast. The project demonstrates the use of basic html and css as well as grid and flexbox. Included are media queries for a variety of phone sizes so that the page remains easy to read and access on a variety of screens. 
 
 # How to use.
 
-To see how the page accomidates for different widths simply scroll the width of your webpage.
+To see how the page accomidates for different widths simply scroll the width of your webpage.   
+To view the live link to the page click [here](https://relyt4me.github.io/th-comp-challenge-1/)
 
 ## Built With
 
