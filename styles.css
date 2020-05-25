@@ -1,5 +1,233 @@
-body, ul, li, h1, h2, h3, a{
-  margin: 0;
-  padding: 0;
+*{
+  margin: 0px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header{
+  width: 100%;
+  margin: 0;
+  background-color: #aaa182;
+}
+
+.head-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "selector crit-logo"
+  "navigation crit-logo";
+}
+
+.campaign-selection{
+  grid-area: selector;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.campaign-choice{
+  font-size: 150%;
+  background-color: #c7e9e9;
+}
+
+.crit-logo{
+  padding: 0;
+  grid-area: crit-logo;
+  text-align: right;
+}
+
+.crit-logo-img{
+  max-width: 100px;
+  padding-right: 15px;
+}
+nav{
+  grid-area: navigation;
+}
+
+.page-links{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  padding-top: 1px;
+  display: block;
+  color: black;
+}
+
+nav a:hover{
+  background-color: #D1C6A1;
+}
+
+main{
+  background-color: #527774;
+  padding-top: 25px;
+}
+
+.title{
+  padding: 5px;
+  color: #aaa182;
+  text-align: center;
+}
+
+.title h1{
+  font-size: 45px;
+}
+
+.card-section{
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  padding: 15px;
+  color: #c7e9e9;
+}
+
+.card-section p{
+  padding-left: 10px;
+}
+
+.card{
+  border: 3px solid #43464B;
+  width: 100%;
+  background-color: #43464B;
+  margin: 5px;
+  text-align: center;
+}
+
+.card-top{
+  padding: 3px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 3em;
+  grid-template-areas:
+  "class-logo . char-name char-name";
+  height: 250px;
+}
+
+.molly .card-top{
+  background: url(img/molly.jpg);
+  background-size: 100%;
+}
+.beau .card-top{
+  background: url(img/beau.jpg);
+  background-size: 100%;
+}
+.caduc .card-top{
+  background: url(img/caduc.jpg);
+  background-size: 100%;
+}
+.caleb .card-top{
+  background: url(img/caleb.jpg);
+  background-size: 100%;
+}
+.fjord .card-top{
+  background: url(img/fjord.jpg);
+  background-size: 100%;
+}
+.jester .card-top{
+  background: url(img/jester.jpg);
+  background-size: 100%;
+}
+.veth .card-top{
+  background: url(img/veth.jpg);
+  background-size: 100%;
+}
+.yasha .card-top{
+  background: url(img/yasha.jpg);
+  background-size: 100%;
+}
+
+.class-logo{
+  width: 10px;
+  grid-area: class-logo;
+}
+
+.class-logo img{
+  height: 100%;
+  border-radius: 2.8em;
+}
+
+.char-name{
+  grid-area: char-name;
+  font-size: 1.4em;
+  text-align: right;
+  padding-right: 4px;
+}
+
+.linkToCharSheet{
+  border: 1px;
+  border-radius: 3px;
+  background-color: #ac96a1
+}
+
+.linkToCharSheet a{
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+@media screen and (min-width: 400px) {
+  .card-top{
+    height: 350px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .card-top{
+    height: 450px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .head-wrapper{
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+    ". selector"
+    "navigation crit-logo";
+  }
+
+  .campaign-selection{
+    margin: 15px;
+    text-align: right;
+  }
+
+  .campaign-choice{
+    font-size: 100%;
+  }
+
+  nav{
+    align-self: end;
+  }
+
+  .page-links{
+    display: flex;
+    padding: 15px;
+    padding-bottom: 0;
+  }
+
+  nav a{
+    padding: 1px;
+    padding-right: 20px;
+    font-size: 110%;
+  }
+
+  .title{
+    text-align: left;
+  }
+
+  .title h1{
+    font-size: 32px;
+  }
+
+  .card-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+    text-align: left;
+  }
+
+  .card-top{
+    height: 250px;
+  }
 }
