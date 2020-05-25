@@ -1,21 +1,17 @@
-# Project Name (Think: Website/Game Name)
+# Critical Role Character Static Page
 
-An image of the product logo
-![logo](images/image.png)
+# Overview
 
-# Brief Description (Ex: Uses, Game Rules, Overview)
+> This is a static html page that was created for a project at Turing School. I have created a page with a theme of characters on the podcast Critical Role that includes a header and character cards for each of the main characters in that podcast. The project demonstrates the use of basic html and css as well as grid and flexbox. Included are media queries for a variety of phone sizes so that the page remains easy to read and access on a variety of screens. 
 
-> Here I put the what is this and the why.
+# How to use.
 
-# How to use (can call strategy or uses can sometimes be conbined with above)
-
-Here I put the answers to How
+To see how the page accomidates for different widths simply scroll the width of your webpage.
 
 ## Built With
 
-- ex: javascript
-- ex: CSS
-- ex: HTML
+- CSS
+- HTML
 
 ## SetUp
 
@@ -23,40 +19,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 1. Fork this project to your own Github account
-2. clone the repository to your local machine
-3. cd into the project
-4. run npm install to install the necessary dependencies
+2. Clone the repository to your local machine
+3. Cd into the folder from the terminal
+4. To view or play around with the code use a text editor on either the html or css file. 
 
 
 ### How to see the product
 
-Here should be the info on running index.html or other last step opeining locally
-[Here should also be the link to the GitHub pages if necessary](https://google.com)
-
-### Live version location if NEEDED
-
-[Live Link](https://google.com)
+From the terminal type `open index.html` to open in a browser.   
 
 
 ## Authors
 
-👤 **Name**
-- Github: [gitHubHandle](link)
-- other link info if needed
-
-👤 **Name**
-- Github: [gitHubHandle](link)
-- other link info if needed
+👤 **Tyler Haglund**
+- Github: [relyt4me](https://github.com/relyt4me)
 
 ## ScreenShots of Functionality
 
-![screenshot](images/image.png)
+### Here is the original design we were to use as a reference.   
+![screenshot](img/original-design.jpg)
+
+### Here is the page in action
+![screenshot](img/in-action.gif)
 
 
 ## Resources
-
-[Original Project Link](link)
-
-## Acknowledgements
-
-Mentor mentions and why or other help outside the group
+   
+   [Original Project Link](https://frontend.turing.io/projects/module-1/m1-static-comp.html).  
+   Images and Content information gathered from: [critrole.com](critrole.com).  
