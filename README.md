@@ -37,7 +37,7 @@ From the terminal type `open index.html` to open in a browser.
 ## ScreenShots of Functionality
 
 ### Here is the original design we were to use as a reference.   
-![screenshot](img/schreenshot-page.png)
+![screenshot](img/screenshot-page.png)
 
 ### Here is the page in action
 ![screenshot](img/in-action.gif)
