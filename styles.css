@@ -11,7 +11,7 @@ header{
 
 .head-wrapper{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 3fr 1fr;
   grid-template-areas:
   "selector crit-logo"
   "navigation crit-logo";
@@ -61,6 +61,7 @@ nav a:hover{
 }
 
 main{
+  width: 100%;
   background-color: #527774;
   padding-top: 25px;
 }
